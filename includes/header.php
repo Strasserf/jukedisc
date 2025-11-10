@@ -1,16 +1,7 @@
-<!DOCTYPE html>
-<html lang="cs">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
     
     <header>
         <div class="header__left">
-            <div><img class="logo" src="images\logo_wide.png" alt=""></div>
+            <a href="index.php"><img class="logo" src="images/logo_wide.png" alt=""></a>
         </div>
 
         <div class="header__right">

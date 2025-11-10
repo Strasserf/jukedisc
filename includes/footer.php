@@ -1,6 +1,6 @@
 <footer>
-    <div class="footer__element">O nás</div>
-    <div class="footer__element">Kontakty</div>
-    <div class="footer__element">Sídliště</div>
-    <div class="footer__element">Sociální sítě</div>
+    <a class="footer__element">O nás</a>
+    <a class="footer__element">Kontakty</a>
+    <a class="footer__element">Sídliště</a>
+    <a class="footer__element">Sociální sítě</a>
 </footer>
