@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 html{
-    background-color: rgb(58, 58, 58);
+    background: #363636;
+    background: linear-gradient(-180deg, rgba(54, 54, 54, 1) 0%, rgba(28, 28, 28, 1) 100%);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
@@ -33,25 +34,31 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 100vh;
+    height: 120vh;
+}
+.arrow{
+    width: 50%;
 }
 .instruments{
     display: flex   ;
     flex-direction: column;
     width: 25%;
-    background-color: rgb(158, 158, 158);
+    background: #707070;
+    background: linear-gradient(-90deg, rgba(112, 112, 112, 1) 0%, rgba(28, 28, 28, 1) 100%);
     padding: 5px;
     padding: 20px;
     position: fixed;
     height: 100%;
     z-index: 1;
     flex-direction: row;
+    color: white;
 }
 .instruments__element{
     background-color: white;
     padding: 20px;
     border-radius: 20px 10px;
     cursor: pointer;
+    color: black;
 }
 .hero__right{
     display: flex;
@@ -63,7 +70,8 @@ header{
     gap: 20px;
 }
 .hero__element,.type,.shop{
-    background-color: rgb(201, 201, 201);
+    background: #707070;
+    background: radial-gradient(circle, rgb(136, 136, 136) 0%, rgb(59, 59, 59) 100%);
     padding: 20px;
 }
 footer{

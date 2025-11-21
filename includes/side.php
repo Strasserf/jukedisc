@@ -9,7 +9,7 @@
         <a class="instruments__element">Vynilové disky, CD</a>
     </div>
     <div class="instruments__right">
-        >
+        <img class="arrow" src="images\right-arrow-svgrepo-com.svg" alt="">
     </div>
 
 </div>

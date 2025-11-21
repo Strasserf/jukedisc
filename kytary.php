@@ -11,12 +11,13 @@
 </head>
 
 <body>
+
     <?php
     include("includes/header.php")
-    ?>
+        ?>
     <?php
     include("includes/side.php")
-    ?>
+        ?>
     <div class="hero">
         <div class="hero__right">
             <h1>Kytary</h1>
@@ -37,7 +38,7 @@
 
     <?php
     include("includes/footer.php")
-    ?>
+        ?>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
     <script src="script.js"></script>
 </body>
