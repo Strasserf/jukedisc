@@ -37,7 +37,7 @@ header{
     height: 120vh;
 }
 .arrow{
-    width: 50%;
+    width: 25%;
 }
 .instruments{
     display: flex   ;
@@ -69,9 +69,13 @@ header{
     width: 75%;
     gap: 20px;
 }
-.hero__element,.type,.shop{
+.type,.shop{
     background: #707070;
     background: radial-gradient(circle, rgb(136, 136, 136) 0%, rgb(59, 59, 59) 100%);
+    padding: 20px;
+}
+.hero__element{
+    background-color: rgb(230, 230, 230);
     padding: 20px;
 }
 footer{
@@ -79,16 +83,25 @@ footer{
     display: flex;
     width: 100%;
     gap: 20px;
-    padding: 20px;
+    padding: 50px;
     justify-content: space-evenly;
     position: absolute;
     z-index: 3;
+
 }
 .footer__element{
     background-color: white;
     padding: 20px;
     width: 20%;
     border-radius: 20px 10px;
+}
+.footer__icon{
+    width: 10%;
+}
+.footer__info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 .logo{
     width: 300px;
@@ -99,16 +112,22 @@ footer{
     height: 50px;
 }
 .submit, .basket{
+    width: 10%;
+    text-decoration: none;
     display: flex;
     padding: 20px;
     height: 50px;
     align-items: center;
-    background-color: black;
+    background-color: rgb(206, 206, 206);
     color: white;
     cursor: pointer;
     border-radius: 20px 10px;
     transition: .25s;
     justify-content: center;
+    text-align: center;
+}
+.header__icon{
+    width: 30px;
 }
 .news__image{
     width: 100%;
@@ -152,12 +171,15 @@ a:visited{
 .type__element{
     background-color: white;
     padding: 20px;
+    width: 100%;
     cursor: pointer;
     border-radius: 20px 10px;
 }
 .type,.shop{
     display: flex;
     justify-content: space-evenly;
+    gap: 20px;
+    flex-direction: row;
 }
 .shop__element{
     background-color: white;
@@ -195,5 +217,11 @@ a:visited{
     }
     .footer__element{
         width: 100%;
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width:1024px){
+        .type{
+        flex-wrap: wrap;
     }
 }

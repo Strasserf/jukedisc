@@ -6,7 +6,7 @@
 
         <div class="header__right">
             <input class="search" type="search" placeholder="Hledat">
-            <input class="submit" type="submit">
-            <button class="basket">Košík</button>
+            <button class="submit" ><img class="header__icon" src="images\search-alt-2-svgrepo-com.svg" alt=""></button>
+            <button class="basket"><img class="header__icon" src="images\basket-shopping-svgrepo-com.svg" alt=""></button>
         </div>
 </header>
