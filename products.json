@@ -1,0 +1,26 @@
+[
+    {
+      "id": "example1",  
+      "nazev": "Kytara",  
+      "popis": "strunný nástroj",  
+      "cena": "2 560",  
+      "obrazek": "guitar.jpg",
+      "recenze": "bbbbbb"
+    },
+    {
+      "id": "example2",  
+      "nazev": "něco2",  
+      "popis": "dsasfasfasfasdf",  
+      "cena": "132 456",  
+      "obrazek": "obrazek2",
+      "recenze": "bbbbbb"
+    },
+    {
+      "id": "example3",  
+      "nazev": "něco3",  
+      "popis": "dsasfasfasfasdf",  
+      "cena": "654 321",  
+      "obrazek": "obrazek3",
+      "recenze": "bbbbbb"
+    }
+]
