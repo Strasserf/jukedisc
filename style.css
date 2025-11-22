@@ -69,10 +69,13 @@ header{
     width: 75%;
     gap: 20px;
 }
-.type,.shop{
+.type,.shop,.product{
     background: #707070;
     background: radial-gradient(circle, rgb(136, 136, 136) 0%, rgb(59, 59, 59) 100%);
     padding: 20px;
+}
+.shop{
+    flex-wrap: wrap;
 }
 .hero__element{
     background-color: rgb(230, 230, 230);
@@ -139,11 +142,12 @@ h1{
     margin: 20px 0;
     font-size: 60px;
 }
-.submit:hover,.basket:hover{
+.submit:hover,.basket:hover,.buy:hover{
     border: solid black 2px;
     background-color: white;
     color: black;
     transition: .25s;
+    cursor: pointer;
 }
 .instruments__element:hover,.type__element:hover{
     background-color: rgb(238, 238, 238);
@@ -175,16 +179,56 @@ a:visited{
     cursor: pointer;
     border-radius: 20px 10px;
 }
-.type,.shop{
+.type,.shop,.product{
     display: flex;
     justify-content: space-evenly;
     gap: 20px;
     flex-direction: row;
 }
-.shop__element{
+.shop__element,.product__element,.reviews{
+    display: flex;
     background-color: white;
     width: 30%;
     padding: 20px;
+    flex-direction: column;
+    border-radius: 40px 20px;
+}
+.shop__image{
+    width: 90%;
+    margin: 20px;
+}
+.product__element{
+    width: 100%;
+    flex-direction: row;
+}
+.product__left{
+    width: 50%;
+}
+.product__right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 50%;
+}
+.product__price{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between  ;
+    width: 100%;
+}
+.buy{
+    background-color: black;
+    border-radius: 40px 20px;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+}
+.product{
+    flex-direction: column
+}
+.reviews{
+    width: 100%;
 }
 @media only screen and (max-width:767px){
     header{

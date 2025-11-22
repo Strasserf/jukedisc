@@ -29,7 +29,13 @@
                 <a class="type__element">Efekty na kytary</a>
             </div>
             <div class="shop">
-                <div class="shop__element">.</div>
+                <a href="shop__item.php" class="shop__element">
+                    <img class="shop__image" src="images/shop__images/guitar.jpg" alt="">
+
+                    <h2>Produkt</h2>
+                    <p>cena</p>
+
+                </a>
                 <div class="shop__element">.</div>
                 <div class="shop__element">.</div>
             </div>
